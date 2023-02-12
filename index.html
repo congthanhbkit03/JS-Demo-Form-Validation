@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .row{
+            display: flex;
+            margin: 30px;
+        }
+
+        .left, .right{
+            flex: 1 1 0;
+        }
+        #container{
+            width: 50%;
+            border: 1px solid #cac;
+        }
+        #container h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>FORM ĐẶT PHÒNG</h1>
+        <div class="row">
+            <div class="left">
+                Họ tên: <input type="text" name="" id="name">
+            </div>
+            <div class="right">
+                Số điện thoại: <input type="text" name="" id="sdt">
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                Ngày đến: <input type="date" name="" id="ngayden">
+            </div>
+            <div class="right">
+                Ngày đi: <input type="date" name="" id="ngaydi">
+            </div>
+        </div>
+        <div class="row">
+            Số người <input type="text" name="" id="songuoi">
+        </div>
+        <div class="row">
+            <button type="button" id="btnSubmit">Đặt phòng</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
